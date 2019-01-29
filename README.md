@@ -1,4 +1,9 @@
-Alpine linux with libs for managing aws (boto3)
-===============================================
+Servis Alpine linux for gitlab-ci pipelines
+===========================================
+
+Including:
+  - aws-cli
+  - terraform
+  - ansible
 
 
