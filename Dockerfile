@@ -8,7 +8,10 @@ COPY . .
 
 RUN apk add zip \
     terraform \
-    ansible
-    #pip3 install --no-cache-dir boto3 aws-cli
+    nodejs nodejs-npm\
+    ansible; \
+    npm install -g serverless ;\
+    sls help ;\
+    pip3 install --no-cache-dir boto3 awscli
 
 
