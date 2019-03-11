@@ -1,15 +1,14 @@
-#from python:3-alpine
-from google/cloud-sdk:alpine
+from python:3-alpine
+#from google/cloud-sdk:alpine
 
 WORKDIR /data/
 
 COPY bashrc /root/.bashrc
 COPY . .
 
-RUN apk add aws-cli \
-    zip \
+RUN apk add zip \
     terraform \
     ansible
-    #pip3 install --no-cache-dir boto3
+    #pip3 install --no-cache-dir boto3 aws-cli
 
 
