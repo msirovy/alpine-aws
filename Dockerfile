@@ -7,6 +7,8 @@ COPY bashrc /root/.bashrc
 COPY . .
 
 RUN apk add zip \
+    openssh-client \
+    git \
     terraform \
     nodejs nodejs-npm\
     ansible; \
