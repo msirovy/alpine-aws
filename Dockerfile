@@ -8,6 +8,7 @@ COPY . .
 
 RUN apk add zip \
     openssh-client \
+    bash \
     git \
     terraform \
     nodejs nodejs-npm\
