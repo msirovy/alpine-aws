@@ -12,6 +12,7 @@ RUN apk add zip \
     curl \
     tree \
     git \
+    rsync \
     terraform \
     nodejs nodejs-npm\
     ansible; \
