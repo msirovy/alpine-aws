@@ -1,6 +1,6 @@
 Servis Alpine linux for gitlab-ci pipelines
 ===========================================
-20190406
+20190909
 
 Including:
   - aws-cli
