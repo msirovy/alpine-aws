@@ -13,9 +13,10 @@ RUN apk add zip \
     tree \
     git \
     rsync \
+    hugo \
+    ansible \
     terraform \
-    nodejs nodejs-npm\
-    ansible; \
+    nodejs nodejs-npm; \
     npm install -g serverless ;\
     sls help ;\
     pip3 install --no-cache-dir boto3 awscli
