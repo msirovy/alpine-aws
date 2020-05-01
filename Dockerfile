@@ -14,7 +14,7 @@ RUN apk add zip \
     git \
     rsync \
     hugo \
-    ansible \
+    ansible ansible-lint \
     terraform \
     nodejs nodejs-npm; \
     npm install -g serverless ;\
