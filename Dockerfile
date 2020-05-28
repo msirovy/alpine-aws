@@ -11,6 +11,7 @@ RUN apk add zip \
     bash \
     curl \
     tree \
+    wget \
     git \
     rsync \
     hugo \
