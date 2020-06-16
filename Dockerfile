@@ -10,6 +10,7 @@ RUN apk add zip \
     openssh-client \
     bash \
     curl \
+    grep \
     tree \
     git \
     rsync \
