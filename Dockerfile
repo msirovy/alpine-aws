@@ -16,6 +16,7 @@ RUN apk add zip \
     git \
     rsync \
     hugo \
+    mysql-client \
     ansible ansible-lint \
     terraform \
     nodejs nodejs-npm; \
