@@ -16,6 +16,8 @@ RUN apk add zip \
     git \
     rsync \
     hugo \
+    tar \
+    py3-jmespath \
     mysql-client \
     ansible ansible-lint \
     terraform \
