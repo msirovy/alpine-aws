@@ -21,9 +21,7 @@ RUN apk add zip \
     mysql-client \
     ansible ansible-lint \
     terraform \
-    nodejs nodejs-npm; \
-    npm install -g serverless ;\
-    sls help ;\
-    pip3 install --no-cache-dir boto3 awscli
+    nodejs nodejs-npm;\
+    pip3 install --no-cache-dir boto3 awscli netaddr
 
 
